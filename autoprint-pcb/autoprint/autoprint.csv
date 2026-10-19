@@ -1,0 +1,33 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
+C1,1,22uF,,,,Capacitor_SMD:C_0603_1608Metric,
+"C2,C4",2,0.1uF,,,,Capacitor_SMD:C_0402_1005Metric,
+C3,1,1uF,,,,Capacitor_SMD:C_0402_1005Metric,
+"C5,C6,C10",3,220uF,,,,Capacitor_THT:CP_Radial_D16.0mm_P7.50mm,
+C7,1,6.2nF,,,,Capacitor_SMD:C_0603_1608Metric,
+"C8,C9",2,22uF,,,,Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B,
+C11,1,100nF,,,,Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P10.00mm,
+"D1,D9",2,D,,,,Diode_SMD:D_SOD-123,
+D2,1,SS210,,,,Diode_SMD:D_SMA,http://www.vishay.com/docs/88526/1n5820.pdf
+"D3,D8",2,LED,,,,LED_SMD:LED_0805_2012Metric,
+"D4,D5",2,MBR0520,,,,Adafruit bq25185 Breakout rev B1:SOD-123FL,http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf
+"F1,F2",2,Fuse,,,,Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open,
+FL1,1,Choke_CommonMode_PulseElectronics_PH9455x105NL,,,,Inductor_THT:L_CommonMode_PulseElectronics_PH9455x105NL_1,https://productfinder.pulseelectronics.com/api/open/product-attachments/datasheet/ph9455.105nl
+J1,1,IEC_60320_C14_Receptacle,,,,c14:RT-C14-C0B-AA,
+J2,1,Conn_01x03_Pin,,,,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,
+J3,1,Conn_01x04_Pin,,,,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,
+J4,1,USB_C_Receptacle_USB2.0_16P,,,,Connector_USB:USB_C_Receptacle_Palconn_UTC16-G,https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+"J6,J7",2,Conn_01x02_Socket,,,,TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm,
+"K2,K3",2,SANYOU_SRD_Form_A,,,,Relay_THT:Relay_SPST_SANYOU_SRD_Series_Form_A,http://www.sanyourelay.ca/public/products/pdf/SRD.pdf
+L1,1,47uH,,,,Inductor_SMD:L_Sunlord_MWSA1003S,
+"Q1,Q3",2,BC817,,,,Package_TO_SOT_SMD:SOT-23,https://www.onsemi.com/pub/Collateral/BC818-D.pdf
+Q2,1,BSS138,,,,Package_TO_SOT_SMD:SOT-23,https://www.onsemi.com/pub/Collateral/BSS138-D.PDF
+"R1,R2,R3,R7",4,10k,,,,Resistor_SMD:R_0805_2012Metric,
+R4,1,R_Variable,,,,Varistor:RV_Disc_D12mm_W4.3mm_P7.5mm,
+R6,1,4k7,,,,Resistor_SMD:R_0805_2012Metric,
+"R8,R9",2,180,,,,Resistor_SMD:R_0402_1005Metric,
+"SW1,SW2",2,SW_Push,,,,Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243,
+U1,1,ESP32-S3-WROOM-1,,,,RF_Module:ESP32-S3-WROOM-1,https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf
+U2,1,LM2596S-5,,,,Package_TO_SOT_SMD:TO-263-5_TabPin3,http://www.ti.com/lit/ds/symlink/lm2596.pdf
+U3,1,AMS1117-3.3,,,,Package_TO_SOT_SMD:SOT-223-3_TabPin2,http://www.advanced-monolithic.com/pdf/ds1117.pdf
+U7,,,,,,,
+U7,1,HLK-40M12,,,,Converter_ACDC:Converter_ACDC_Hi-Link_HLK-30Mxx,https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9730W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9130W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.6.pdf
