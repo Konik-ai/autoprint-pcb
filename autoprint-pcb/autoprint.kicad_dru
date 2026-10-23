@@ -1,0 +1,5 @@
+(version 1)
+(rule AC
+   (layer outer)
+   (constraint clearance (min 1.5mm))
+   (condition "A.hasNetclass('AC*') && A.NetClass != B.NetClass"))
